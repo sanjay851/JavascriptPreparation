@@ -1,0 +1,23 @@
+#clock{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    color:white;
+    background-color: darkgreen;
+    font-size: 35px;
+}
+.h1{
+    color: red;
+    margin-top: 95px;
+}
+#btn{
+    background-color: blue;
+}
+#hide , #show{
+cursor: pointer;
+color: crimson;
+background-color:chartreuse;
+width: 100px;
+height: 25px;
+
+}
