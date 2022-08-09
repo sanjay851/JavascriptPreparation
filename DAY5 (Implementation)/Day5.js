@@ -114,3 +114,31 @@ console.log(result);
 // Q8.Write a code to create two objects with 2 properties each, 
 // one will be string and other will be an array. Create a function to 
 // check if all the elements of the arrays in both the objects are same
+let myObj = 
+{
+  fName : "Sanjay",
+  branch : ["CSE" , "EE" , "ME" ,"CIVIL" , "ECE"]
+};
+//console.log(myObj);
+let myObj2 =
+{
+  lName : "Mandal",
+  branch : ["CSE" , "EE" , "ME" ,"CIVIL" , "ECE"]
+};
+//console.log(myObj2);
+function checkObj(myObj, myObj2){ 
+  let count = 0;
+     for (let i = 0; i <myObj.branch.length; i++) {  
+         if (myObj.branch.includes(myObj2.branch[i]))
+       {
+      count++;
+  }
+   else {    
+     console.log("branch are not Equal");   
+    } 
+    } 
+      if (count == myObj.branch.length)  {
+    console.log("All the elements are Equal");//All the elements are Equal
+     } 
+  } 
+  checkObj(myObj, myObj2);
